@@ -1,0 +1,23 @@
+body{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color:whitesmoke
+}
+
+.tabl th{
+    font-size: xx-large;
+    background-color: rgba(211, 232, 252, 0.7);
+}
+.tabl td{
+    font-size: x-large;
+    background-color: rgba(211, 232, 252, 0.5);
+}
+.tabl th,.tabl td{
+    padding-left:50px; padding-right: 50px; padding-top: 10px; padding-bottom: 10px;
+}
+.tabl tr:not(:first-child):hover {
+    background-color: rgba(211, 232, 252, 0.4);
+}
